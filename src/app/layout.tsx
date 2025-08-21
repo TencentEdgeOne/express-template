@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Node Functions on EdgeOne Pages - Express",
-  description: "Node Functions 允许您在 Node Runtime 中运行代码,而无需管理服务器。借助其能力,您可以方便的在 Pages 开发部署基于 Express 框架的全栈应用。",
+  description: "Node Functions allow you to run code in the Node Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en-US">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

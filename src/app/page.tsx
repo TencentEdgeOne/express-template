@@ -29,13 +29,13 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center">
-                <span className="text-xs font-medium">logo</span>
+              <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center">
+                <img src="/eo-logo-white.svg" alt="EdgeOne Pages" width={32} height={32} />
               </div>
               <h1 className="text-lg font-semibold">EdgeOne Pages</h1>
             </div>
             <a
-              href="https://github.com"
+              href="https://github.com/TencentEdgeOne/express-template"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -67,7 +67,7 @@ export default function Home() {
               Node Functions on EdgeOne Pages - Express
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Node Functions 允许您在 Node Runtime 中运行代码,而无需管理服务器。借助其能力,您可以方便的在 Pages 开发部署基于 Express 框架的全栈应用。
+              Node Functions allow you to run code in the Node Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.
             </p>
           </div>
 
@@ -75,18 +75,18 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-[#1c66e5] hover:bg-[#1c66e5]/90 text-white px-8 py-3 text-lg"
+              className="bg-[#1c66e5] hover:bg-[#1c66e5]/90 text-white px-8 py-3 text-lg cursor-pointer"
             >
               <Zap className="w-5 h-5 mr-2" />
-              一键部署
+              One-Click Deployment
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-gray-600 hover:bg-gray-800 text-white px-8 py-3 text-lg"
+              className="border-gray-600 hover:bg-gray-800 text-white px-8 py-3 text-lg cursor-pointer"
             >
               <ExternalLink className="w-5 h-5 mr-2" />
-              查看文档
+              View Documentation
             </Button>
           </div>
 
@@ -102,18 +102,18 @@ export default function Home() {
 {`import express from "express";
 const app = express();
 
-// 添加日志中间件
+// Add logging middleware
 app.use((req, res, next) => {
   console.log(\`[${new Date().toISOString()}] $\{req.method} $\{req.url}\`);
   next();
 });
 
-// 添加根路由处理
+// Add root route handling
 app.get("/", (req, res) => {
   res.json({ message: "Hello from Express on Node Functions!" });
 });
 
-// 导出处理函数
+// Export the handling function
 export default app;`}
               </pre>
             </CardContent>
@@ -126,18 +126,18 @@ export default app;`}
                 <Button 
                   onClick={handleApiCall}
                   disabled={isLoading}
-                  className="bg-[#1c66e5] hover:bg-[#1c66e5]/90 text-white"
+                  className="bg-[#1c66e5] hover:bg-[#1c66e5]/90 text-white cursor-pointer"
                 >
                   {isLoading ? (
                     <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin mr-2" />
                   ) : (
                     <Play className="w-4 h-4 mr-2" />
                   )}
-                  执行 API 调用
+                  Execute API Call
                 </Button>
                 {apiResult && (
                   <div className="text-left">
-                    <p className="text-sm text-gray-400 mb-2">API 调用结果:</p>
+                    <p className="text-sm text-gray-400 mb-2">API Call Result:</p>
                     <p className="text-green-400 font-mono bg-gray-800 px-3 py-2 rounded">
                       {apiResult}
                     </p>
