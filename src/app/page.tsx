@@ -104,7 +104,7 @@ const app = express();
 
 // Add logging middleware
 app.use((req, res, next) => {
-  console.log(\`[${new Date().toISOString()}] $\{req.method} $\{req.url}\`);
+  console.log(\`[Log] $\{req.method} $\{req.url}\`);
   next();
 });
 
