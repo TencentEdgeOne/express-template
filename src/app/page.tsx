@@ -155,7 +155,7 @@ export default app;`}
       <footer className="border-t border-gray-800 mt-16">
         <div className="container mx-auto px-6 py-8">
           <div className="text-center text-gray-400">
-            <p>Powered by EdgeOne Pages & Next.js</p>
+            <p>Powered by EdgeOne Pages</p>
           </div>
         </div>
       </footer>
