@@ -75,6 +75,7 @@ export default function Home() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="https://edgeone.ai/pages/new?from=github&template=express-template" target="_blank" rel="noopener noreferrer">
             <Button 
               size="lg" 
               className="bg-[#1c66e5] hover:bg-[#1c66e5]/90 text-white px-8 py-3 text-lg cursor-pointer"
@@ -82,6 +83,7 @@ export default function Home() {
               <Zap className="w-5 h-5 mr-2" />
               One-Click Deployment
             </Button>
+            </a>
             <Button 
               variant="outline" 
               size="lg" 
