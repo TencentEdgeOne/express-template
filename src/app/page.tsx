@@ -28,12 +28,14 @@ export default function Home() {
       <header className="border-b border-gray-800">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
+            <a href="/" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center space-x-3">
               <div className="w-6 h-6rounded-full flex items-center justify-center">
                 <img src="/eo-logo-blue.svg" alt="EdgeOne Pages" width={32} height={32} />
               </div>
               <h1 className="text-lg font-semibold">EdgeOne Pages</h1>
             </div>
+            </a>
             <a
               href="https://github.com/TencentEdgeOne/express-template"
               target="_blank"
