@@ -29,8 +29,8 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center">
-                <img src="/eo-logo-white.svg" alt="EdgeOne Pages" width={32} height={32} />
+              <div className="w-6 h-6rounded-full flex items-center justify-center">
+                <img src="/eo-logo-blue.svg" alt="EdgeOne Pages" width={32} height={32} />
               </div>
               <h1 className="text-lg font-semibold">EdgeOne Pages</h1>
             </div>
