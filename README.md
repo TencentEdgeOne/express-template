@@ -112,7 +112,7 @@ Uses `class-variance-authority` to manage component style variants with multiple
 
 ## 📚 Documentation
 
-- **EdgeOne Pages Official Docs**: [https://docs.edgeone.com](https://docs.edgeone.com)
+- **EdgeOne Pages Official Docs**: [https://pages.edgeone.ai/document/node-functions](https://pages.edgeone.ai/document/node-functions)
 - **Next.js Documentation**: [https://nextjs.org/docs](https://nextjs.org/docs)
 - **Tailwind CSS Documentation**: [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
 - **Express.js Documentation**: [https://expressjs.com](https://expressjs.com)
