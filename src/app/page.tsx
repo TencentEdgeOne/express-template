@@ -100,7 +100,7 @@ export default function Home() {
           <Card className="bg-gray-900 border-gray-700 text-left">
             <CardHeader className="pb-3">
               <CardTitle className="text-sm font-mono text-gray-400">
-                ./node-functions/express/[[default]].js
+                ./cloud-functions/express/[[default]].js
               </CardTitle>
             </CardHeader>
             <CardContent>

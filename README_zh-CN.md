@@ -1,6 +1,6 @@
-# Node Functions on EdgeOne Pages - Express
+# Cloud Functions on EdgeOne Pages - Express
 
-一个基于 Next.js + Tailwind CSS 的函数请求演示网站，展示如何在 EdgeOne Pages 上使用 Node Functions 部署 Express 应用。
+一个基于 Next.js + Tailwind CSS 的函数请求演示网站，展示如何在 EdgeOne Pages 上使用 Cloud Functions 部署 Express 应用。
 
 ## 🚀 特性
 
@@ -26,7 +26,7 @@
 
 ### 后端
 - **Express.js** - Node.js Web 应用框架
-- **Node Functions** - EdgeOne Pages 无服务器函数
+- **Cloud Functions** - EdgeOne Pages 无服务器函数
 
 ## 📁 项目结构
 
@@ -128,17 +128,17 @@ edgeone pages build
 5. 配置输出目录：`.next`
 6. 部署项目
 
-### Node Functions 配置
+### Cloud Functions 配置
 
-在项目根目录创建 `node-functions/` 文件夹，添加 Express 应用：
+在项目根目录创建 `cloud-functions/` 文件夹，添加 Express 应用：
 
 ```javascript
-// node-functions/express/[[default]].js
+// cloud-functions/express/[[default]].js
 import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Express on Node Functions!" });
+  res.json({ message: "Hello from Express on Cloud Functions!" });
 });
 
 export default app;

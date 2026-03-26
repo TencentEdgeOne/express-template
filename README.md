@@ -1,6 +1,6 @@
-# Node Functions on EdgeOne Pages - Express
+# Cloud Functions on EdgeOne Pages - Express
 
-A function request demonstration website based on Next.js + Tailwind CSS, showcasing how to deploy Express applications using Node Functions on EdgeOne Pages.
+A function request demonstration website based on Next.js + Tailwind CSS, showcasing how to deploy Express applications using Cloud Functions on EdgeOne Pages.
 
 ## 🚀 Features
 
@@ -26,7 +26,7 @@ A function request demonstration website based on Next.js + Tailwind CSS, showca
 
 ### Backend
 - **Express.js** - Node.js web application framework
-- **Node Functions** - EdgeOne Pages serverless functions
+- **Cloud Functions** - EdgeOne Pages serverless functions
 
 ## 📁 Project Structure
 
@@ -127,17 +127,17 @@ Uses `class-variance-authority` to manage component style variants with multiple
 4. Configure build command: `edgeone pages build`
 5. Deploy project
 
-### Node Functions Configuration
+### Cloud Functions Configuration
 
-Create `node-functions/` folder in project root and add Express application:
+Create `cloud-functions/` folder in project root and add Express application:
 
 ```javascript
-// node-functions/express/[[default]].js
+// cloud-functions/express/[[default]].js
 import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Express on Node Functions!" });
+  res.json({ message: "Hello from Express on Cloud Functions!" });
 });
 
 export default app;
