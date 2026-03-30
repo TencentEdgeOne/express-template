@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Node Functions on EdgeOne Pages - Express",
-  description: "Node Functions allow you to run code in the Node Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.",
+  title: "Cloud Functions on EdgeOne Pages - Express",
+  description: "Cloud Functions allow you to run code in the Node.js Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.",
 };
 
 export default function RootLayout({

@@ -116,7 +116,7 @@ app.use((req, res, next) => {
 
 // Add root route handling
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Express on Node Functions!" });
+  res.json({ message: "Hello from Express on Cloud Functions!" });
 });
 
 // Export the handling function

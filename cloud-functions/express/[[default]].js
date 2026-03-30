@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 
 // 添加根路由处理
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Express on Node Functions!" });
+  res.json({ message: "Hello from Express on Cloud Functions!" });
 });
 
 // 导出处理函数
