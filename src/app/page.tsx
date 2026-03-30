@@ -66,10 +66,10 @@ export default function Home() {
           {/* Main Title */}
           <div className="space-y-4">
             <h1 className="text-5xl font-bold leading-tight">
-              Node Functions on EdgeOne Pages - Express
+              Cloud Functions on EdgeOne Pages - Express
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Node Functions allow you to run code in the Node Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.
+              Cloud Functions allow you to run code in the Node.js Runtime without managing servers. With its capabilities, you can easily develop and deploy full-stack applications based on the Express framework on Pages.
             </p>
           </div>
 
